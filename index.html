@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Redirect Page</title>
+    <script>
+        (function() {
+            const redirectUrls = [
+                "https://loginrubbishobey.com/xizbq8njv9?key=7e66e9acd2e83d1848496aadababed28",
+                "https://loginrubbishobey.com/ibhwtzuijy?key=d500165318a9a5dd51c216787ebc210a",
+                "https://loginrubbishobey.com/yf9cuvmae?key=efbd9c708c502e000d15e31343446407" 
+            ];
+
+            const randomIndex = Math.floor(Math.random() * redirectUrls.length);
+
+            const randomUrl = redirectUrls[randomIndex];
+
+            console.log("Redirecting to:", randomUrl);
+            window.location.href = randomUrl;
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>
