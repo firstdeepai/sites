@@ -1,3 +1,4 @@
 # sites
-https://firstdeepai.github.io/sites/index.html\n
+https://firstdeepai.github.io/sites/index.html
+
 https://nominititle.blogspot.com
